@@ -1,0 +1,13 @@
+Package: dropdownButtonInput
+Title: Dropdown Button Shiny Input
+Version: 0.1.0
+Authors@R: person("Gregg", "Whitworth", email = "whitworthg@wlu.edu", role = c("aut", "cre"))
+Description: A shiny input that uses the Bootstrap dropdown button widget
+Depends: 
+  R (>= 3.4.3),
+  shiny,
+  htmltools
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

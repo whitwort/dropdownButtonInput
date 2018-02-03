@@ -1,2 +1,4 @@
 # dropdownButtonInput
-A shiny input widget using a Bootstrap dropdown button
+
+A shiny input widget that uses a Bootstrap button dropdown.
+
