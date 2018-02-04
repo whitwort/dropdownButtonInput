@@ -30,7 +30,7 @@ dropdownButtonInput <- function(inputId, label, elements, width = NULL, class = 
            , class  = "btn-group shiny-input-container dropdown-button-input"
            , tags$button( type  = "button"
                         , class = paste("btn btn-default dropdown-toggle", class)
-                        , `data-toggle`  = "dropdown"
+                        , `data-toggle`   = "dropdown"
                         , `aria-expanded` = "false"
                         , icon
                         , label

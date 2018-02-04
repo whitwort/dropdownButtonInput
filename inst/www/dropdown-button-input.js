@@ -2,9 +2,9 @@
 
   /* buttonDropdownInput */
   var dropdownButtonInputBinding = new Shiny.InputBinding()
-  console.log("I exist.")
 
   $.extend(dropdownButtonInputBinding, {
+
       /* shiny API */
       find: function(scope) {
           return $(scope).find(".dropdown-button-input")
@@ -42,7 +42,6 @@
         $(el).data('value', value)
         $(el).trigger('change')
       }
-
 
   })
 
