@@ -1,9 +1,9 @@
 ;(function() {
 
   /* buttonDropdownInput */
-  var dropdownButtonInputBinding = new Shiny.InputBinding()
+  var binding = new Shiny.InputBinding()
 
-  $.extend(dropdownButtonInputBinding, {
+  $.extend(binding, {
 
       /* shiny API */
       find: function(scope) {
@@ -45,6 +45,6 @@
 
   })
 
-  Shiny.inputBindings.register(dropdownButtonInputBinding)
+  Shiny.inputBindings.register(binding)
 
 })();
