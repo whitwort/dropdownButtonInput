@@ -50,7 +50,7 @@ dropdownButtonInput <- function(inputId, label, elements, width = NULL, class = 
                                 if (identical(value, NA)) {
                                   tags$li(class = "divider")
                                 } else if (is(value, 'shiny.tag')) {
-                                  tags$li(value)
+                                  column(width = 12, tags$li(value))
                                 } else {
                                   tags$li(tags$a( href  = "#"
                                                 , value = value
